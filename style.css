@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+} 
+
+.dark-mode {
+    background-color: #2C3333;
+    color: white;
+}
+
+.dark-mode h5,p {
+    color: black;
+}
+
+.toggle {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    padding: 18px 20px;
+    border-radius: 5px;
+}
+
+input{
+    outline: none;
+    border: none;
+    width: 350px;
+    background: none;
+}
+
+.card-img-top {
+    width: 260px;
+    height: 173px;
+}
+
+.card-img-top img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
